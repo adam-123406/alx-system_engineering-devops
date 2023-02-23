@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
+#  Bash script that gives you information about the school file.
 
-if [ -e "school" ]
+
+if [ -e "alxschool" ]
 then
     echo "school file exists"
 
-    if [ -s "school" ]
+    if [ -s "alxschool" ]
     then
 	echo "school file is not empty"
     else
 	echo "school file is empty"
     fi
 
-    if [ -f "school" ]
+    if [ -f "alxschool" ]
     then
        echo "school is a regular file"
     fi
